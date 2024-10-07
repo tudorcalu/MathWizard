@@ -1,0 +1,219 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "BouncyCastle/1.8.9": {
+        "type": "package",
+        "compile": {
+          "lib/BouncyCastle.Crypto.dll": {}
+        },
+        "runtime": {
+          "lib/BouncyCastle.Crypto.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.11.46": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          }
+        }
+      },
+      "iTextSharp/5.5.13.3": {
+        "type": "package",
+        "dependencies": {
+          "BouncyCastle": "1.8.9"
+        },
+        "compile": {
+          "lib/itextsharp.dll": {}
+        },
+        "runtime": {
+          "lib/itextsharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BouncyCastle/1.8.9": {
+      "sha512": "axnBgvdD5n+FnEG6efk/tfKuMFru7R/EoISH9zjh319yb3HD24TEHSAbNN/lTRT2ulOGRxDgOsCjkuk08iwWPg==",
+      "type": "package",
+      "path": "bouncycastle/1.8.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "bouncycastle.1.8.9.nupkg.sha512",
+        "bouncycastle.nuspec",
+        "lib/BouncyCastle.Crypto.dll"
+      ]
+    },
+    "HtmlAgilityPack/1.11.46": {
+      "sha512": "dLMn4EVfJBHWmWK4Uh0XGD76FPLHI0qr2Tm0s1m/xmgiHb1JUb9zB8AzO8HtrkBBlMN6JfCUBYddhqC0hZNR+g==",
+      "type": "package",
+      "path": "htmlagilitypack/1.11.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "htmlagilitypack.1.11.46.nupkg.sha512",
+        "htmlagilitypack.nuspec",
+        "lib/Net35/HtmlAgilityPack.dll",
+        "lib/Net35/HtmlAgilityPack.pdb",
+        "lib/Net35/HtmlAgilityPack.xml",
+        "lib/Net40-client/HtmlAgilityPack.dll",
+        "lib/Net40-client/HtmlAgilityPack.pdb",
+        "lib/Net40-client/HtmlAgilityPack.xml",
+        "lib/Net40/HtmlAgilityPack.XML",
+        "lib/Net40/HtmlAgilityPack.dll",
+        "lib/Net40/HtmlAgilityPack.pdb",
+        "lib/Net45/HtmlAgilityPack.XML",
+        "lib/Net45/HtmlAgilityPack.dll",
+        "lib/Net45/HtmlAgilityPack.pdb",
+        "lib/NetCore45/HtmlAgilityPack.XML",
+        "lib/NetCore45/HtmlAgilityPack.dll",
+        "lib/NetCore45/HtmlAgilityPack.pdb",
+        "lib/netstandard1.3/HtmlAgilityPack.deps.json",
+        "lib/netstandard1.3/HtmlAgilityPack.dll",
+        "lib/netstandard1.3/HtmlAgilityPack.pdb",
+        "lib/netstandard1.3/HtmlAgilityPack.xml",
+        "lib/netstandard1.6/HtmlAgilityPack.deps.json",
+        "lib/netstandard1.6/HtmlAgilityPack.dll",
+        "lib/netstandard1.6/HtmlAgilityPack.pdb",
+        "lib/netstandard1.6/HtmlAgilityPack.xml",
+        "lib/netstandard2.0/HtmlAgilityPack.deps.json",
+        "lib/netstandard2.0/HtmlAgilityPack.dll",
+        "lib/netstandard2.0/HtmlAgilityPack.pdb",
+        "lib/netstandard2.0/HtmlAgilityPack.xml",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.XML",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.XML",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/uap10.0/HtmlAgilityPack.XML",
+        "lib/uap10.0/HtmlAgilityPack.dll",
+        "lib/uap10.0/HtmlAgilityPack.pdb",
+        "lib/uap10.0/HtmlAgilityPack.pri"
+      ]
+    },
+    "iTextSharp/5.5.13.3": {
+      "sha512": "vtnMhTEJdZFCkLqaQLjD8aqTBIVKHPrSFuSXnxbLEJlvE/j/l88fvG9wtsejXTmhtErMo0lA9T2LdfdfbwplYw==",
+      "type": "package",
+      "path": "itextsharp/5.5.13.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "gnu-agpl-v3.0.md",
+        "itextsharp.5.5.13.3.nupkg.sha512",
+        "itextsharp.nuspec",
+        "lib/iTextSharp.xml",
+        "lib/itextsharp.dll",
+        "notice.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "HtmlAgilityPack >= 1.11.46",
+      "iTextSharp >= 5.5.13.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\tudyc\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\tudyc\\OneDrive\\Desktop\\atestat\\Manigu\\Manigu\\Manigu.csproj",
+      "projectName": "Manigu",
+      "projectPath": "C:\\Users\\tudyc\\OneDrive\\Desktop\\atestat\\Manigu\\Manigu\\Manigu.csproj",
+      "packagesPath": "C:\\Users\\tudyc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tudyc\\OneDrive\\Desktop\\atestat\\Manigu\\Manigu\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\tudyc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "HtmlAgilityPack": {
+            "target": "Package",
+            "version": "[1.11.46, )"
+          },
+          "iTextSharp": {
+            "target": "Package",
+            "version": "[5.5.13.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BouncyCastle 1.8.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "BouncyCastle",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'iTextSharp 5.5.13.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
